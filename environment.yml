@@ -1,7 +1,7 @@
 name: pointcept-torch2.5.0-cu12.4
 channels:
   - pytorch
-  - nvidia/label/cuda-12.4.1
+  - nvidia/label/cuda-12.8.0
   - nvidia
   - bioconda
   - conda-forge
@@ -16,7 +16,7 @@ dependencies:
   - pytorch=2.5.0
   - torchvision=0.20.0
   - torchaudio=2.5.0
-  - pytorch-cuda=12.4
+  - pytorch-cuda=12.8
   - ninja
   - google-sparsehash
   - h5py
